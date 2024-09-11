@@ -44,7 +44,8 @@ clean:
 	@make clean -sC $(LIBFT_PATH)                 
 	@echo "Done"                                  
 	@echo "Deleting So_long object..."            
-	@rm -f $(OBJ)                                 
+	@rm -f $(OBJ)
+	@rm -rf $(NAME)                               
 	@echo "Done"                                  
 
 fclean: clean
